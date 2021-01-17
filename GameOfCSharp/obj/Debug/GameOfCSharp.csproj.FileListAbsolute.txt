@@ -1,0 +1,10 @@
+D:\Projects\GameOfCSharp\GameOfCSharp\bin\Debug\GameOfCSharp.exe.config
+D:\Projects\GameOfCSharp\GameOfCSharp\bin\Debug\GameOfCSharp.exe
+D:\Projects\GameOfCSharp\GameOfCSharp\bin\Debug\GameOfCSharp.pdb
+D:\Projects\GameOfCSharp\GameOfCSharp\obj\Debug\GameOfCSharp.csprojAssemblyReference.cache
+D:\Projects\GameOfCSharp\GameOfCSharp\obj\Debug\GameOfCSharp.Form1.resources
+D:\Projects\GameOfCSharp\GameOfCSharp\obj\Debug\GameOfCSharp.Properties.Resources.resources
+D:\Projects\GameOfCSharp\GameOfCSharp\obj\Debug\GameOfCSharp.csproj.GenerateResource.cache
+D:\Projects\GameOfCSharp\GameOfCSharp\obj\Debug\GameOfCSharp.csproj.CoreCompileInputs.cache
+D:\Projects\GameOfCSharp\GameOfCSharp\obj\Debug\GameOfCSharp.exe
+D:\Projects\GameOfCSharp\GameOfCSharp\obj\Debug\GameOfCSharp.pdb
