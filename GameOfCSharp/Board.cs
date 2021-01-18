@@ -30,30 +30,41 @@ namespace GameOfCSharp
         {
             int neighbourCounter = 0;
 
-            if (this.board[x - 1, y - 1])
+            if (this.board[x - 1, y - 1] && x-1!=0 && y-1!=0)
                 neighbourCounter++;
-            if (this.board[x - 1, y])
+            if (this.board[x - 1, y] && x-1 !=0)
                 neighbourCounter++;
-            if (this.board[x - 1, y + 1])
+            if (this.board[x - 1, y + 1] && x-1!=0 && y+1!=this.size+1)
                 neighbourCounter++;
-            if (this.board[x, y - 1])
+            if (this.board[x, y - 1] && y-1!=0)
                 neighbourCounter++;
-            if (this.board[x, y + 1])
+            if (this.board[x, y + 1] && y+1!=this.size+1)
                 neighbourCounter++;
-            if (this.board[x + 1, y - 1])
+            if (this.board[x + 1, y - 1] && x+1!=this.size+1 && y-1!=0)
                 neighbourCounter++;
-            if (this.board[x + 1, y])
+            if (this.board[x + 1, y] && x+1!= this.size+1)
                 neighbourCounter++;
-            if (this.board[x + 1, y + 1])
+            if (this.board[x + 1, y + 1] && x+1!= this.size+1 && y+1!= this.size+1)
                 neighbourCounter++;
 
             return neighbourCounter;
+        }
+
+        private void clearEdges()
+        {
+            for (int i = 0; i< this.size + 2; i++)
+            {
+                this.board[0, i] = false;
+                this.board[i, 0] = false;
+            }
         }
 
 
         public void nextGeneration()
         {
             bool[,] tempBoard = new bool[this.size+2, this.size+2];
+
+            //this.clearEdges();
 
             for(int i = 1; i <= this.size; i++)
             {
@@ -69,7 +80,8 @@ namespace GameOfCSharp
                         }
                         else
                         {
-                            tempBoard[i, j] = false;
+                            if (neighboursNr < 2 || neighboursNr > 3)
+                                tempBoard[i, j] = false;
                         }
                     }
                     else

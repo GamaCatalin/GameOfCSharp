@@ -7,3 +7,8 @@ D:\Projects\GameOfCSharp\GameOfCSharp\obj\Release\GameOfCSharp.csproj.GenerateRe
 D:\Projects\GameOfCSharp\GameOfCSharp\obj\Release\GameOfCSharp.csproj.CoreCompileInputs.cache
 D:\Projects\GameOfCSharp\GameOfCSharp\obj\Release\GameOfCSharp.exe
 D:\Projects\GameOfCSharp\GameOfCSharp\obj\Release\GameOfCSharp.pdb
+D:\Projects\GameOfCSharp\GameOfCSharp\obj\Release\GameOfCSharp.csprojAssemblyReference.cache
+D:\Projects\GameOfCSharp\GameOfCSharp\bin\Release\GameOfCSharp.exe.manifest
+D:\Projects\GameOfCSharp\GameOfCSharp\bin\Release\GameOfCSharp.application
+D:\Projects\GameOfCSharp\GameOfCSharp\obj\Release\GameOfCSharp.exe.manifest
+D:\Projects\GameOfCSharp\GameOfCSharp\obj\Release\GameOfCSharp.application
